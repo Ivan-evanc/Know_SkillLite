@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textSize="24dp"
+        android:textColor="#fff"
+        android:text="HOME OF SKILLS"/>
+
+
+    <TextView
+        android:id="@+id/tv_search_skills"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="15dp"
+        android:background="#fff"
+        android:drawableRight="@drawable/ic_search_black_24dp"
+        android:drawablePadding="15dp"
+        android:fontFamily="serif"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:text="Search For Skills"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22sp"/>
+
+
+    <TextView
+        android:id="@+id/tv_tap_skills"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tap to enroll as the Service Provider"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:background="@android:color/darker_gray"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:drawableLeft="@drawable/ic_user_enroll_as_service_provider"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:textAlignment="center"
+        android:layout_marginTop="25dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/tv_main_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/signup_ract"
+            android:text="Login"
+            android:paddingTop="13dp"
+            android:paddingBottom="15dp"
+            android:textSize="18sp"
+            android:paddingRight="62dp"
+            android:paddingLeft="62dp"
+            android:gravity="bottom"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:id="@+id/tv_main_reg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mediatransperent_ract"
+            android:text="Signup"
+            android:paddingTop="13dp"
+            android:paddingBottom="15dp"
+            android:textSize="18sp"
+            android:paddingRight="58dp"
+            android:paddingLeft="58dp"
+            android:gravity="bottom"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:textColor="#ffffff"/>
+    </FrameLayout>
+
+
+</LinearLayout>

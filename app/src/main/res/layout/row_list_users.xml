@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/image"
+            android:layout_width="45dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_gravity="center"
+            android:layout_height="45dp"
+            android:layout_centerInParent="true"
+            app:civ_border_color="@color/colorAccent"
+            app:civ_border_width="1dp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14.3dp"
+                android:fontFamily="serif"
+                android:layout_gravity="left"
+                android:text="Name Of Get"
+                android:textColor="#323643"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14.3dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="left"
+                android:text="Home"
+                android:textColor="#323643"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/country"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14.3dp"
+                android:layout_marginTop="5dp"
+                android:text="Home"
+                android:layout_gravity="left"
+                android:textColor="#323643"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/county"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14.3dp"
+                android:layout_marginTop="5dp"
+                android:text="Home"
+                android:layout_gravity="left"
+                android:textColor="#323643"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/estate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="01 May 2018"
+                    android:layout_gravity="right"
+                    android:fontFamily="serif"
+                    android:textColor="#323643"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/neigh"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="right"
+                    android:text="01 May 2018"
+                    android:layout_gravity="right"
+                    android:textColor="#323643"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/expert"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="01 May 2018"
+                    android:layout_gravity="right"
+                    android:textColor="#323643"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="01 May 2018"
+                    android:layout_gravity="right"
+                    android:textColor="#323643"
+                    android:textSize="12dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="0.7dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/sub_text"/>
+
+
+</LinearLayout>

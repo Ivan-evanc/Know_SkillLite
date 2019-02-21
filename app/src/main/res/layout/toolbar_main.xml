@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp"
+    android:background="#fff"
+    android:minHeight="?attr/actionBarSize"
+    android:padding="0dp"
+    app:contentInsetLeft="10dp"
+    app:contentInsetRight="10dp"
+    app:contentInsetStart="10dp">
+
+    <LinearLayout
+        android:id="@+id/linear_cart"
+        android:layout_width="wrap_content"
+        android:layout_gravity="end"
+        android:gravity="right"
+        android:padding="2dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_cart_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textSize="8dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginRight="10dp"
+            android:text="0"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/eshop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="-80dp"
+        android:gravity="center"
+        android:fontFamily="serif"
+        android:text="SkillLite"
+        android:textSize="16dp" />
+
+
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/login_id_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="7dp">
+
+        <TextView
+            android:id="@+id/imgLogo"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="SkillLite"
+            android:layout_marginBottom="5dp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:fontFamily="serif"
+            android:textAlignment="center"
+            android:text="Please Login Here"/>
+
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:background="@drawable/custom_sf_roundbor"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="serif"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="10dp"
+            android:inputType="text"
+            android:maxLength="16"
+            android:padding="10dp"/>
+
+
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:background="@drawable/custom_sf_roundbor"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="serif"
+            android:layout_marginBottom="10dp"
+            android:inputType="textPassword"
+            android:maxLength="16"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:padding="12dp"
+            android:fontFamily="serif"
+            android:text="Login"
+            android:textSize="16dp"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:fontFamily="serif"
+            android:textAlignment="center"
+            android:text="Not Having an Account?"/>
+
+
+        <TextView
+            android:id="@+id/tv_reg_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:padding="12dp"
+            android:fontFamily="serif"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:background="@color/colorAccent"
+            android:layout_margin="13dp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
